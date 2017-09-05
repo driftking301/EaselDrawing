@@ -1,4 +1,4 @@
-# :driftking301/EaselDrawing
+# driftking301/EaselDrawing
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE)
@@ -18,7 +18,7 @@ PSRs you support to avoid any confusion with users and contributors.
 Via Composer
 
 ``` bash
-$ composer require :vendor/:package_name
+$ composer require driftking301/easel-drawing
 ```
 
 ## Usage
@@ -39,24 +39,25 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) and [CODE_OF_CONDUCT](CODE_OF_CONDUCT
 
 ## Credits
 
-- [:author_name][link-author]
+- [driftking301][https://github.com/driftking301]
 - [All Contributors][link-contributors]
 
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/:driftking301/:easel-drawing.svg?style=flat-square
-[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/:vendor/:package_name/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/:vendor/:package_name.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/:vendor/:package_name.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/:vendor/:package_name.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/:driftking301/:easel-drawing
-[link-travis]: https://travis-ci.org/:vendor/:package_name
-[link-scrutinizer]: https://scrutinizer-ci.com/g/:vendor/:package_name/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/:vendor/:package_name
-[link-downloads]: https://packagist.org/packages/:vendor/:package_name
-[link-author]: https://github.com/:author_username
+[ico-version]: https://img.shields.io/packagist/driftking301/easel-drawing.svg?style=flat-square
+[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/driftking301/EaselDrawing/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/driftking301/EaselDrawing.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/driftking301/EaselDrawing.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/driftking301/easel-drawing.svg?style=flat-square
+
+[link-packagist]: https://packagist.org/packages/driftking301/easel-drawing
+[link-travis]: https://travis-ci.org/driftking301/EaselDrawing
+[link-scrutinizer]: https://scrutinizer-ci.com/g/driftking301/EaselDrawing/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/driftking301/EaselDrawing/
+[link-downloads]: https://packagist.org/packages/driftking301/easel-drawing
+[link-author]: https://github.com/driftking301
 [link-contributors]: ../../contributors
