@@ -50,8 +50,7 @@ class DevelopmentCaseTest extends TestCase
         $filename = $drawer->create($canvas);
         $this->assertFileExists($filename);
         $expectedFile = test_asset('photos/draw.png');
-        echo base64_encode(file_get_contents($filename));
-        $this->assertImageSimilarity($filename, $expectedFile, 0.01, "File $filename does not match with $expectedFile");
+        $this->assertImageSimilarity($filename, $expectedFile, 0, "File $filename does not match with $expectedFile");
         unlink($filename);
     }
 }
