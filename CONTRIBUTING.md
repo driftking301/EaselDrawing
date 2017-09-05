@@ -61,7 +61,6 @@ When you do begin working on your feature, here are some guidelines to consider:
 If you are having issues with coding standars use `php-cs-fixer` and `phpcbf`
 
 ```shell
-vendor/bin/php-cs-fixer fix -v
 vendor/bin/phpcbf src/ tests/
 ```
 
