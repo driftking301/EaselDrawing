@@ -59,7 +59,7 @@ class DevelopmentCaseTest extends TestCase
             $filename,
             $expectedFile,
             0.06,
-             "File $filename does not match with $expectedFile"
+            "File $filename does not match with $expectedFile"
         );
         unlink($filename);
     }
