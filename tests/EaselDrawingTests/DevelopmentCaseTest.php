@@ -46,15 +46,21 @@ class DevelopmentCaseTest extends TestCase
         ]);
 
         /** @var DrawerInterface $drawer
-         The purpose of this test is not to evaluate if the 2 images are exactly the same, instead it only tries
-         *   to check if it exists similarity between them, because the image render generation could change in different OS.
+         The purpose of this test is not to evaluate if the 2 images are exactly the same, instead it only
+         * tries to check if it exists similarity between them, because the image render generation could
+         * change in different OS.
          */
         $drawer = new GDDrawer();
         $filename = $drawer->create($canvas);
         $this->assertFileExists($filename);
         $expectedFile = test_asset('photos/draw.png');
 
-        $this->assertImageSimilarity($filename, $expectedFile, 0.06, "File $filename does not match with $expectedFile");
+        $this->assertImageSimilarity(
+            $filename,
+            $expectedFile,
+            0.06,
+             "File $filename does not match with $expectedFile"
+        );
         unlink($filename);
     }
 }
